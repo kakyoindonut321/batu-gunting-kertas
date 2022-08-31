@@ -6,3 +6,15 @@ c. fake loading screen of the bot choosing RPS
 d. win or lose screen "you won", "you lose", below a restart button
 e. back to A if you click restart
 3. dark UI, red, yellow, and blue base border color
+
+
+
+urutan halaman:
+1. main menu, tombol [main!] dan lainnya jika perlu
+2. teks "pilih salah satu", tiga gambar button yang beralternating ke versi lain jika di hover
+3. gambar yang kita pilih dan loading screen bohongan agar laju game tidak terlalu cepat
+4. teks "anda menang" atau "and kalah" dan dibawahnya dua gambar, gambar yang kita pilih dan gambar yang bot pilih, dibawahnya ada dua tombol, "kembali ke menu" yang menuju ke halaman 1 dan "main lagi" yang menuju ke halaman 2
+
+
+buat funciton:
+1. function untuk mengselect antara "halaman" dengan input 1-4

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Batu Gunting Kertas</title>
+    <style>
+        body {
+            background-color: black;
+        }
+        /* css halaman 1 */
+        
+        .img-prop1 {
+            height: auto;
+        }
+        
+        .one-prop1 {
+            width: 20%;
+        }
+        
+        .two-prop1 {
+            width: 33.3%;
+        }
+        
+        .three-prop1 {
+            width: 30%;
+        }
+        
+        #titlediv-prop1 {
+            margin-top: 5%;
+            padding: 5px;
+            padding-left: 10%;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+        
+        .button-prop1 {
+            background-color: red;
+            border-radius: 20%;
+            color: black;
+            padding: 1px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin-right: 43%;
+            margin-left: 43%;
+            cursor: pointer;
+            font-family: "Comic Sans MS", "Comic Sans", cursive;
+            font-size: 30px;
+        }
+        /* css halaman 2 */
+        
+        .h1-prop2 {
+            color: white;
+            text-align: center;
+            font-size: 200%;
+            font-family: "Comic Sans MS", "Comic Sans", cursive;
+            margin-top: 5%;
+        }
+        /* pilih */
+        
+        .h1-pilih1-prop2 {
+            color: red;
+            text-align: center;
+            font-size: 200%;
+            font-family: "Comic Sans MS", "Comic Sans", cursive;
+            margin-top: 5%;
+            font-size: 3vw;
+        }
+        
+        .h1-pilih2-prop2 {
+            color: blue;
+            text-align: center;
+            font-size: 200%;
+            font-family: "Comic Sans MS", "Comic Sans", cursive;
+            margin-top: 5%;
+            font-size: 3vw;
+        }
+        
+        .h1-pilih3-prop2 {
+            color: lime;
+            text-align: center;
+            font-size: 200%;
+            font-family: "Comic Sans MS", "Comic Sans", cursive;
+            margin-top: 5%;
+            font-size: 3vw;
+        }
+        
+        .row-prop2 {
+            border: white solid;
+            display: flex;
+            margin-left: 20%;
+            margin-right: 20%;
+        }
+        
+        #image-prop2 {
+            width: 100%;
+            image-rendering: auto;
+            image-rendering: crisp-edges;
+            image-rendering: pixelated;
+        }
+        
+        .column-prop2 {
+            flex: 33.33%;
+            padding: 5px;
+        }
+        /* css halaman 3 */
+        
+        .loading-prop3 {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            image-rendering: auto;
+            image-rendering: crisp-edges;
+            image-rendering: pixelated;
+        }
+        
+        .h1-margin-prop3 {
+            margin-top: 3%;
+        }
+        
+        .h1-prop3 {
+            color: white;
+            text-align: center;
+            font-size: 250%;
+            font-family: "Comic Sans MS", "Comic Sans", cursive;
+        }
+        /* temporal display */
+        
+        #pertama {
+            /*  */
+            display: none;
+            /*  */
+        }
+        
+        #kedua {
+            /*  */
+            display: none;
+            /*  */
+        }
+        
+        #ketiga {
+            /*  */
+            /*  */
+        }
+        
+        #keempat {
+            display: none;
+        }
+    </style>
+</head>
+<!-- PERTAMA -->
+<div id="pertama">
+    <div id="titlediv-prop1">
+        <img class="one-prop1 img-prop1" src="assets/eventbatu.gif" alt="">
+        <img class="two-prop1 img-prop1" src="assets/eventgunting.gif" alt="">
+        <img class="three-prop1 img-prop1" src="assets/eventkertas.gif" alt="">
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <button class="button-prop1"><b>Main!</b></button>
+</div>
+
+
+
+
+<!-- KEDUA -->
+<div id="kedua">
+    <h1 class="h1-prop2">Pilih salah satu!</h1>
+    <div class="row-prop2">
+        <div class="column-prop2">
+            <input type="image" id="image-prop2" alt="Login" src="assets/gambar/batu.png" onmouseover="this.src='assets/batu.gif';" onmouseout="this.src='assets/gambar/batu.png';" value="batu">
+            <h1 class="h1-pilih1-prop2">Batu</h1>
+        </div>
+        <div class="column-prop2">
+            <input type="image" id="image-prop2" alt="Login" src="assets/gambar/gunting.png" onmouseover="this.src='assets/gunting.gif';" onmouseout="this.src='assets/gambar/gunting.png';" value="gunting">
+            <h1 class="h1-pilih2-prop2">Gunting</h1>
+        </div>
+        <div class="column-prop2">
+            <input type="image" id="image-prop2" alt="Login" src="assets/gambar/kertas.png" onmouseover="this.src='assets/kertas.gif';" onmouseout="this.src='assets/gambar/kertas.png';" value="kertas">
+            <h1 class="h1-pilih3-prop2">Kertas</h1>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<!-- KETIGA -->
+<div id="ketiga">
+    <h1 class="h1-prop3 h1-margin-prop3">Loading</h1>
+    <img class="loading-prop3" src="assets/loading.gif" alt="">
+    <h1 class="h1-prop3">yang anda pilih:</h1>
+    <div class="pilihan-prop3">
+        <img id="loading-pilihan-prop3" src="" alt="">
+    </div>
+</div>
+<!-- KEEMPAT -->
+<div id="keempat">
+
+</div>
+
+<body>
+
+</body>
+
+</html>
