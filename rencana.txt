@@ -1,0 +1,8 @@
+1. clickable interface, with amateur colors, borders, and image of rock paper scissor
+2. flowchart:
+a. UI, button "start game"
+b. "choose" img of rock, paper, and scissor with static sharp border
+c. fake loading screen of the bot choosing RPS
+d. win or lose screen "you won", "you lose", below a restart button
+e. back to A if you click restart
+3. dark UI, red, yellow, and blue base border color
