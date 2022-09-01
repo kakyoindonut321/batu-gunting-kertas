@@ -1,0 +1,154 @@
+body {
+    background-color: black;
+}
+
+
+/* css halaman 1 */
+
+.img-prop1 {
+    height: auto;
+}
+
+.one-prop1 {
+    width: 20%;
+}
+
+.two-prop1 {
+    width: 33.3%;
+}
+
+.three-prop1 {
+    width: 30%;
+}
+
+#titlediv-prop1 {
+    margin-top: 5%;
+    padding: 5px;
+    padding-left: 12.5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.button-prop1 {
+    background-color: red;
+    border-radius: 20%;
+    color: black;
+    padding: 1px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 43%;
+    margin-left: 43%;
+    cursor: pointer;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 30px;
+}
+
+
+/* css halaman 2 */
+
+.h1-prop2 {
+    color: white;
+    text-align: center;
+    font-size: 200%;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    margin-top: 5%;
+}
+
+
+/* pilih */
+
+.h1-pilih1-prop2 {
+    color: red;
+    text-align: center;
+    font-size: 200%;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    margin-top: 5%;
+    font-size: 3vw;
+}
+
+.h1-pilih2-prop2 {
+    color: blue;
+    text-align: center;
+    font-size: 200%;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    margin-top: 5%;
+    font-size: 3vw;
+}
+
+.h1-pilih3-prop2 {
+    color: lime;
+    text-align: center;
+    font-size: 200%;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    margin-top: 5%;
+    font-size: 3vw;
+}
+
+.row-prop2 {
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#image-prop2 {
+    width: 100%;
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+}
+
+.column-prop2 {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+
+/* css halaman 3 */
+
+.loading-prop3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+}
+
+.h1-margin-prop3 {
+    margin-top: 3%;
+}
+
+.h1-prop3 {
+    color: white;
+    text-align: center;
+    font-size: 250%;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+
+/* temporal display */
+
+#pertama {
+    /*  */
+    /*  */
+}
+
+#kedua {
+    /*  */
+    display: none;
+    /*  */
+}
+
+#ketiga {
+    /*  */
+    display: none;
+    /*  */
+}
+
+#keempat {
+    /*  */
+    display: none;
+    /*  */
+}
