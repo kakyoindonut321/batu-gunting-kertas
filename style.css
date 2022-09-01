@@ -7,6 +7,7 @@ body {
 
 .img-prop1 {
     height: auto;
+    padding-right: 10px;
 }
 
 .one-prop1 {
@@ -24,14 +25,14 @@ body {
 #titlediv-prop1 {
     margin-top: 5%;
     padding: 5px;
-    padding-left: 12.5%;
+    padding-left: 12%;
     margin-left: 10%;
     margin-right: 10%;
 }
 
 .button-prop1 {
     background-color: red;
-    border-radius: 20%;
+    border-radius: 30%;
     color: black;
     padding: 1px 25px;
     text-align: center;
@@ -125,6 +126,16 @@ body {
     text-align: center;
     font-size: 250%;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+#loading-pilihan-prop3 {
+    display: flex;
+    width: 20%;
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 
