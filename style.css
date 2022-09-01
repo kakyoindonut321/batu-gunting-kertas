@@ -38,7 +38,7 @@ body {
 
 .button-prop1 {
     background-color: red;
-    border-radius: 30%;
+    border-radius: 10%;
     color: black;
     padding: 1px 25px;
     text-align: center;
@@ -145,7 +145,74 @@ body {
 }
 
 
-/* temporal display */
+/* css halaman 4 */
+
+#winloss-prop4 {
+    color: white;
+    text-align: center;
+    font-size: 250%;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.h1-pilih1-prop4 {
+    color: white;
+    text-align: center;
+    font-size: 200%;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 3vw;
+}
+
+.h1-pilih2-prop4 {
+    color: white;
+    text-align: center;
+    font-size: 200%;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 3vw;
+}
+
+.h1-pilih3-prop4 {
+    color: white;
+    text-align: center;
+    font-size: 200%;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 3vw;
+}
+
+.row-prop4 {
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#wl-img-player-prop4,
+#wl-img-cpu-prop4 {
+    width: 100%;
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+}
+
+.column-prop4 {
+    flex: 33.33%;
+    padding: 0px;
+}
+
+#h2-pilih1-prop4 {
+    color: white;
+    text-align: center;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 2.5vw;
+}
+
+#h2-pilih3-prop4 {
+    color: white;
+    text-align: center;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 2.5vw;
+}
+
+
+/* display switching */
 
 #pertama {
     /*  */

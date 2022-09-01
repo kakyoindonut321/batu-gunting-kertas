@@ -25,7 +25,7 @@
     <br>
     <br>
     <div class="button-div-prop1">
-        <button onclick="togglePage(2)" class="button-prop1"><b>Main!</b></button>
+        <button onclick="togglePage(2); reset()" class="button-prop1"><b>Mulai!</b></button>
     </div>
 </div>
 
@@ -60,8 +60,27 @@
 
 <!-- KEEMPAT -->
 <div id="keempat">
-    <div>
+    <h1 id="winloss-prop4"></h1>
+    <div class="row-prop4">
+        <div class="column-prop4">
+            <img id="wl-img-player-prop4" src="" alt="">
+            <h1 class="h1-pilih1-prop4">Player</h1>
+            <h2 id="h2-pilih1-prop4"></h2>
+        </div>
+        <div class="column-prop4">
+            <br>
+            <h1 class="h1-pilih2-prop4">VS</h1>
+            <br><br><br><br><br><br><br><br>
 
+            <div class="button-div-prop1">
+                <button onclick="togglePage(1); " class="button-prop1"><b>Ulang?</b></button>
+            </div>
+        </div>
+        <div class="column-prop4">
+            <img id="wl-img-cpu-prop4" src="" alt="">
+            <h1 class="h1-pilih3-prop4">Bot</h1>
+            <h2 id="h2-pilih3-prop4"></h2>
+        </div>
     </div>
 </div>
 

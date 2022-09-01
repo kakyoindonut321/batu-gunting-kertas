@@ -1,5 +1,7 @@
 var playerResult = "undefined";
 var delayInMilliseconds = 3000;
+var conMove = getComputerChoice();
+
 
 // angka random dibuat jadi pilihan cpu
 function getComputerChoice() {
@@ -70,11 +72,46 @@ function prePlayRound() {
     pilihanImage.src = 'assets/' + playerResult + '.gif';
     setTimeout(testFunctionPleaseIgnore(), 3000);
     if (playerResult != "undefined") {
-        var result = playRound(playerResult, getComputerChoice());
+        var result = playRound(playerResult, conMove);
     }
 
     setTimeout(function loading() {
         togglePage(4);
+        var winLoss = document.getElementById("winloss-prop4");
+        document.getElementById("wl-img-player-prop4").src = 'assets/' + playerResult + '.gif';
+        document.getElementById("wl-img-cpu-prop4").src = 'assets/' + conMove + '.gif';
+        document.getElementById("h2-pilih1-prop4").innerHTML = playerResult;
+        document.getElementById("h2-pilih3-prop4").innerHTML = conMove;
+        // memberi warna ke h2 yang menunjukan pilihan kita dan musuh
+        switch (playerResult) {
+            case "batu":
+                document.getElementById("h2-pilih1-prop4").style.color = "red";
+                break;
+            case "gunting":
+                document.getElementById("h2-pilih1-prop4").style.color = "blue";
+                break;
+            case "kertas":
+                document.getElementById("h2-pilih1-prop4").style.color = "lime";
+                break;
+        }
+        switch (conMove) {
+            case "batu":
+                document.getElementById("h2-pilih3-prop4").style.color = "red";
+                break;
+            case "gunting":
+                document.getElementById("h2-pilih3-prop4").style.color = "blue";
+                break;
+            case "kertas":
+                document.getElementById("h2-pilih3-prop4").style.color = "lime";
+                break;
+        }
+        if (result === "menang") {
+            winLoss.innerHTML = "ANDA MENANG";
+        } else if (result === "seri") {
+            winLoss.innerHTML = "PERMAINAN SERI";
+        } else {
+            winLoss.innerHTML = "ANDA KALAH";
+        }
     }, delayInMilliseconds);
 }
 
@@ -116,4 +153,9 @@ function playRound(playerSelection, computerSelection) {
         }
     }
 
+}
+
+function reset() {
+    playerResult = "undefined";
+    conMove = getComputerChoice();
 }
