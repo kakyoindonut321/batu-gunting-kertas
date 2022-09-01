@@ -30,6 +30,12 @@ body {
     justify-content: center;
 }
 
+.button-div-prop1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .button-prop1 {
     background-color: red;
     border-radius: 30%;
@@ -39,8 +45,8 @@ body {
     text-decoration: none;
     display: block;
     font-size: 16px;
-    margin-right: 43%;
-    margin-left: 43%;
+    /* margin-right: 43%; */
+    /* margin-left: 43%; */
     cursor: pointer;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
     font-size: 30px;
